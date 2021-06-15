@@ -13,6 +13,12 @@ export default function Navbar() {
                 <li>
                     <NavLink to="/products" activeClassName="active">Products</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/login" activeClassName="active">Login</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/register" activeClassName="active">Register</NavLink>
+                </li>
                
             </ul>
         </nav>
