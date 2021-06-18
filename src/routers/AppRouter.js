@@ -11,7 +11,7 @@ import Navbar from '../components/Navbar';
 export default function AppRouter(){
     return (
      <Router>
-        <Navbar />
+        <Navbar/>
          <Switch>
          <Route path="/login" component={LoginPage}/>
          <Route path="/products" component={ProductsPage}/>
@@ -19,7 +19,6 @@ export default function AppRouter(){
          <Route path="/users/:username" component={UsersPage}/>
          <Route exact path="/" component={HomePage}/>
          <Route path="*" component={NotFoundPage}/>
-
         </Switch>
        </Router>
     );
