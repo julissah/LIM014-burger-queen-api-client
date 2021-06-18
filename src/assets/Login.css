@@ -1,6 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hideNavbar {
+  display: none;
+}
+
 .login-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
-  
+.section-login {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  background-image: url('../img/bg-login-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.form-login {
+  width: 80%;
+  height: 50%;
+  align-items: center;
+  margin: 100px 10px;
+  padding: 50px 10px;
+  flex-wrap: wrap;
+  justify-content: right;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.titleLogin {
+  color: #FFFFFF;
+}
+
+.inputEmail,
+.inputPassword {
+  border-bottom: 2px solid #AAAAAA;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  background-color: transparent;
+  height: 35px;
+  width: 190px;  
+  color: white;
+}
+
+.labelEmail,
+.labelPassword,
+.subtitleLogin {
+  color: #AAAAAA;
+  justify-content: start;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  justify-self: left;
+}
+.btnLogin {
+  width: 80px;
+  height: 37px;
+  color: #FFFFFF;
+  background-color: #FF4500;
+  border-radius: 20px;
+  border: none;
+  margin: 0 10px;
+}
+
+.btnGoogle {
+  width: 180px;
+  height: 37px;
+  color: #555555;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin: 40px auto 20px auto;
+}
+
+.google-icon {
+  /* position: absolute; */
+  width: 22px;
+  height: 22px;
+  justify-content: start;
+}
+
+.btn-text {
+  color: #252525;
+  font-size: 10px;
+}
