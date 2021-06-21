@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { Fragment, useState } from 'react';
-import '../assets/Login.css'
+import '../../assets/Login.css';
 
 const axios = require ('axios');
 

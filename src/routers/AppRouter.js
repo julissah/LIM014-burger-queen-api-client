@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import LoginPage from '../pages/LoginPage';
-import ProductsPage from '../pages/ProductsPage';
-import OrdersPage from '../pages/OrdersPage';
-import UsersPage from '../pages/UsersPage';
+import LoginPage from '../components/login/LoginPage';
+import ProductsPage from '../components/admin/products/ProductsPage';
+import OrdersPage from '../components/kitchen/OrdersPage';
+import UsersPage from '../components/admin/users/UsersPage';
 import HomePage from '../pages/HomePage';
 import NotFoundPage from '../pages/NotFoundPage';
-import Navbar from '../components/Navbar';
+import Navbar from '../pages/Navbar';
 
 
 export default function AppRouter(){
